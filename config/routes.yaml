@@ -1,0 +1,7 @@
+comment_add:
+  path: /comment/add/{context}
+  controller: User\CommentBundle\Controller\CommentController::add
+
+admin_routes:
+  resource: "@CommentBundle/Resources/config/admin_routes.yaml"
+  prefix: /admin

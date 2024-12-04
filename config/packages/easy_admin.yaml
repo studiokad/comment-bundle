@@ -1,0 +1,15 @@
+easy_admin:
+  entities:
+    Comment:
+      class: User\CommentBundle\Entity\Comment
+      list:
+        fields:
+          - id
+          - author
+          - content
+          - context
+          - createdAt
+      edit:
+        fields:
+          - author
+          - content

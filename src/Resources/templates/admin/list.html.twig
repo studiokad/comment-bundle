@@ -1,0 +1,29 @@
+<div class="container mt-5">
+    <h2>Gestion des commentaires</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Auteur</th>
+                <th>Commentaire</th>
+                <th>Contexte</th>
+                <th>Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for comment in comments %}
+                <tr>
+                    <td>{{ comment.id }}</td>
+                    <td>{{ comment.author }}</td>
+                    <td>{{ comment.content }}</td>
+                    <td>{{ comment.context }}</td>
+                    <td>{{ comment.createdAt|date('d/m/Y H:i') }}</td>
+                    <td>
+                        <a href="{{ path('comment_admin_delete', { id: comment.id }) }}" class="btn btn-sm btn-danger">Supprimer</a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,40 @@
+# Node_modules (si vous utilisez des outils JS)
+node_modules/
+
+# Cache et logs Symfony
+var/cache/
+var/log/
+var/sessions/
+
+# Configurations spécifiques à l'environnement
+.env
+.env.local
+.env.*.local
+
+# Migrations générées automatiquement (facultatif)
+migrations/
+
+# Fichiers de test et de couverture
+phpunit.xml
+phpunit.xml.dist
+coverage/
+
+# Dépendances Composer (elles sont re-téléchargées via composer install)
+vendor/
+
+# Configurations IDE
+.idea/
+.vscode/
+
+# Fichiers spécifiques aux systèmes d'exploitation
+.DS_Store
+Thumbs.db
+
+# Fichiers générés par Composer ou PHPStorm
+composer.lock
+/.phpunit.result.cache
+
+# Clés privées ou secrets (ajoutez des clés spécifiques si nécessaire)
+*.key
+*.pem
+*.crt

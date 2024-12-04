@@ -1,0 +1,17 @@
+{
+    "name": "kader/comment-bundle",
+    "autoload": {
+        "psr-4": {
+            "Kader\\CommentBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "StudioKad",
+            "email": "studiokad75@gmail.com"
+        }
+    ],
+    "require": {
+        "easycorp/easyadmin-bundle": "^4.20"
+    }
+}
