@@ -1,17 +1,19 @@
 {
-    "name": "kader/comment-bundle",
-    "autoload": {
-        "psr-4": {
-            "Kader\\CommentBundle\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "StudioKad",
-            "email": "studiokad75@gmail.com"
-        }
-    ],
-    "require": {
-        "easycorp/easyadmin-bundle": "^4.20"
+  "name": "kader/comment-bundle",
+  "description": "A Symfony bundle to manage comments",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Kader\\CommentBundle\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "StudioKad",
+      "email": "studiokad75@gmail.com"
+    }
+  ],
+  "require": {
+    "easycorp/easyadmin-bundle": "^4.20"
+  }
 }
