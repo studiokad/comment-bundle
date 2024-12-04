@@ -11,5 +11,5 @@
 ### 1. Installer le bundle via Composer
 
 ```bash
-composer require votre-nom/comment-bundle
+composer require kader/comment-bundle
 ```
