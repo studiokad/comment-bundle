@@ -1,9 +1,9 @@
 <?php
 
-namespace User\CommentBundle\Controller;
+namespace Kader\CommentBundle\Controller;
 
-use User\CommentBundle\Entity\Comment;
-use User\CommentBundle\Form\CommentType;
+use Kader\CommentBundle\Entity\Comment;
+use Kader\CommentBundle\Form\CommentType;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;

@@ -1,10 +1,10 @@
 <?php
 
-namespace User\CommentBundle\Entity;
+namespace Kader\CommentBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
-#[ORM\Entity(repositoryClass: \User\CommentBundle\Repository\CommentRepository::class)]
+#[ORM\Entity(repositoryClass: \Kader\CommentBundle\Repository\CommentRepository::class)]
 class Comment
 {
     #[ORM\Id]

@@ -1,12 +1,12 @@
 <?php
 
-namespace User\CommentBundle\Form;
+namespace Kader\CommentBundle\Form;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\OptionsResolver\OptionsResolver;
-use User\CommentBundle\Entity\Comment;
+use Kader\CommentBundle\Entity\Comment;
 
 class CommentType extends AbstractType
 {

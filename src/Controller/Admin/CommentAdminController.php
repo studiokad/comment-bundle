@@ -1,8 +1,8 @@
 <?php
 
-namespace User\CommentBundle\Controller\Admin;
+namespace Kader\CommentBundle\Controller\Admin;
 
-use User\CommentBundle\Entity\Comment;
+use Kader\CommentBundle\Entity\Comment;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;

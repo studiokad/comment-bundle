@@ -1,6 +1,6 @@
 <?php
 
-namespace User\CommentBundle;
+namespace Kader\CommentBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
