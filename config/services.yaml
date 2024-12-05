@@ -1,0 +1,4 @@
+services:
+  Kader\CommentBundle\:
+    resource: "../*"
+    exclude: "../{DependencyInjection,Entity,Migrations,Tests}"
