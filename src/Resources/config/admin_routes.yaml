@@ -1,0 +1,11 @@
+comment_admin_list:
+  path: /admin/comments
+  controller: Kader\CommentBundle\Controller\Admin\CommentAdminController::list
+
+comment_admin_edit:
+  path: /admin/comments/edit/{id}
+  controller: Kader\CommentBundle\Controller\Admin\CommentAdminController::edit
+
+comment_admin_delete:
+  path: /admin/comments/delete/{id}
+  controller: Kader\CommentBundle\Controller\Admin\CommentAdminController::delete
